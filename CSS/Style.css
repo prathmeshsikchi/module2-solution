@@ -13,38 +13,12 @@ h1
 	color : green ;
 	margin: 20px;
 }
-#p1
+.row
 {
-	position: absolute;
-	top : 0px;	
-	right : 0px;
-	background-color: pink ;
-}
-#p2
-{
-	position: absolute;
-	top : 0px;	
-	right : 0px;
-	background-color: maroon ;
-}
-#p3
-{
-	position: absolute;
-	top : 0px;	
-	right : 0px;
-	background-color: blue;
-}
-p.container
-{
-	padding: 10px;
-	margin: 10px;
-	border: 2px solid ;
-	background-color: gray ;
-	position: relative;
-	float: left ;
+	width: 
 }
 /*******************************large device**********************/
-@media (min-width: 992px){
+@media (min-height: 992px){
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12
 	{
 		float :left;
@@ -59,6 +33,7 @@ p.container
 	{
 		width: 16.66%;
 	}
+
 	.col-lg-3
 	{
 		width: 25%;
@@ -101,7 +76,7 @@ p.container
 	}
 }
 /*****************tablet view**************/
-@media ((min-width: 768) and  (max-width: 991px)){
+@media ((min-height: 768) and  (max-height:  991px)){
 	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12
 	{
 		float :left;
