@@ -159,4 +159,5 @@ p
 	margin: 10 px;
 	border: 2px wide ;
 	background-color: gray ;
+	position: relative;
 }
