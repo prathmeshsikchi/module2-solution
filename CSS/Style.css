@@ -3,6 +3,32 @@
 	margin : 0 ;
 	box-sizing: border-box;
 }
+p .container
+{
+	position: relative;
+}
+#p1
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: pink;
+}
+
+#p2
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: maroon;
+}
+#p3
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: orange;
+}
 body
 {
 	font-family: corbel ;
