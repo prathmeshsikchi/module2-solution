@@ -45,6 +45,7 @@ h1
 .row
 {
 	width: 100%;
+	position: relative;
 }
 /*******************************large device**********************/
 @media (min-width: 992px){
