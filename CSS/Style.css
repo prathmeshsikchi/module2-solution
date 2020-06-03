@@ -28,9 +28,11 @@ body
 	right : 0px;
 	background-color: blue;
 }
-#container
+.container
 {
 	position: relative;
+	float: left ;
+	margin-right: 10px;
 }
 /*******************************large device**********************/
 @media (min-width: 992px){
