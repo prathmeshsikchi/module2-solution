@@ -8,27 +8,49 @@
 	position: relative;
 
 }
+section 
+{
+	font-size: 15px;
+	padding : 5px;
+	clear: right;
+}
 #p1
 {
+	margin : 20px;
 	border : 1px solid;
 	background-color: gray;
 	position: relative;
-	padding: 5px;
+	/*width: 250px;
+	height :200px;*/
 }
 #p2
 {
-
+	margin: 20px;
+	border : 1px solid;
+	background-color: gray;
+	position: relative;
+	/*width: 250px;
+	height :200px;*/
+	/*padding: 5px;*/
 }
 #p3
 {
-
+	margin: 20px;
+	border : 1px solid;
+	background-color: gray;
+	position: relative;
+	/*width: 250px;
+	height :200px;*/	
+	/*padding: 5px;*/
 }
 #p1_1
 {
+	font-size: 25px;
 	border: 1px solid;
-	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 90px;
+	text-align: center;
+	float: right;
+	height: 30px;
 	top: 0px;
 	right : 0px;
 	background-color: pink;
@@ -36,17 +58,27 @@
 
 #p2_2
 {
-	position: absolute;
+	font-size: 25px;
+	border: 1px solid;
+	width: 90px;
+	text-align: center;
+	float: right;
+	height: 30px;
 	top: 0px;
-	right: 0px;
-	background-color: maroon;
+	right : 0px;
+	background-color: orange;
 }
 #p3_3
 {
-	position: absolute;
+	font-size: 25px;
+	border: 1px solid;
+	width: 90px;
+	text-align: center;
+	float: right;
+	height: 30px;
 	top: 0px;
-	right: 0px;
-	background-color: orange;
+	right : 0px;
+	background-color: maroon;
 }
 body
 {
@@ -58,6 +90,7 @@ h1
 	text-align: center ;
 	color : green ;
 	margin: 20px;
+	font-size: 45px;
 }
 .row
 {
@@ -69,7 +102,9 @@ h1
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12
 	{
 		float :left;
-		padding : 30px;
+		/*padding : 80px;*/
+		margin: 20px
+		border: 2px solid;
 		box-sizing: border-box;
 		position: relative;
 	}  
@@ -127,9 +162,9 @@ h1
 @media (min-width: 768px) and (max-width: 991px){
 	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12
 	{
-		float : left;
-		padding : 30px;
-		box-sizing : border-box;
+		float :left;
+		/*border: 2px solid;*/
+		box-sizing: border-box;
 		position: relative;
 	}  
 	.col-md-1
